@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pjanu.shuriken.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/fasola"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:alpha="0"
+            android:scaleType="fitCenter"
+            android:scaleX="0"
+            android:scaleY="0"
+            android:visibility="visible"
+            app:srcCompat="@drawable/fasola"
+            tools:layout_editor_absoluteX="202dp"
+            tools:layout_editor_absoluteY="302dp" />
+
+        <ImageView
+            android:id="@+id/shuriken8"
+            android:layout_width="@android:dimen/notification_large_icon_height"
+            android:layout_height="@android:dimen/notification_large_icon_width"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/shuriken7"
+            android:layout_weight="1"
+            android:onClick="ruch"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/s" />
+
+        <ImageView
+            android:id="@+id/shuriken7"
+            android:layout_width="@android:dimen/notification_large_icon_height"
+            android:layout_height="@android:dimen/notification_large_icon_width"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/shuriken6"
+            android:layout_weight="1"
+            android:onClick="ruch"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/s" />
+
+        <ImageView
+            android:id="@+id/shuriken6"
+            android:layout_width="@android:dimen/notification_large_icon_height"
+            android:layout_height="@android:dimen/notification_large_icon_width"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/shuriken5"
+            android:layout_weight="1"
+            android:onClick="ruch"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/s" />
+
+        <ImageView
+            android:id="@+id/shuriken5"
+            android:layout_width="@android:dimen/notification_large_icon_height"
+            android:layout_height="@android:dimen/notification_large_icon_width"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/shuriken4"
+            android:layout_weight="1"
+            android:onClick="ruch"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/s" />
+
+        <ImageView
+            android:id="@+id/shuriken4"
+            android:layout_width="@android:dimen/notification_large_icon_height"
+            android:layout_height="@android:dimen/notification_large_icon_width"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/shuriken3"
+            android:layout_weight="1"
+            android:onClick="ruch"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/s" />
+
+        <ImageView
+            android:id="@+id/shuriken3"
+            android:layout_width="@android:dimen/notification_large_icon_height"
+            android:layout_height="@android:dimen/notification_large_icon_width"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/shuriken2"
+            android:layout_weight="1"
+            android:onClick="ruch"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/s" />
+
+        <ImageView
+            android:id="@+id/shuriken2"
+            android:layout_width="@android:dimen/notification_large_icon_height"
+            android:layout_height="@android:dimen/notification_large_icon_width"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/shuriken"
+            android:layout_weight="1"
+            android:onClick="ruch"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/s" />
+
+        <ImageView
+            android:id="@+id/shuriken"
+            android:layout_width="@android:dimen/notification_large_icon_height"
+            android:layout_height="@android:dimen/notification_large_icon_width"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:onClick="ruch"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/s" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:onClick="ruch"
+            android:text="Shuriken" />
+
+        <TextView
+            android:id="@+id/KN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/shuriken3"
+            android:layout_alignParentStart="true"
+            android:alpha="0"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:text="KN Bean"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
